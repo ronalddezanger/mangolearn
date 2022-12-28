@@ -22,3 +22,6 @@ dotnet new webapi -n Mango.Services.ProductAPI -f net7.0
 cd Mango.Services.ProductAPI
 dotnet run
 ```
+
+disable nullable
+
