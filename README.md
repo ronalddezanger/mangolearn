@@ -14,4 +14,11 @@ cd FrontEnd
 dotnet new mvc -n Mango.Web -f net7.0
 cd Mango.Web
 dotnet run
+cd ..
+cd ..
+mkdir Services
+cd Services
+dotnet new webapi -n Mango.Services.ProductAPI -f net7.0
+cd Mango.Services.ProductAPI
+dotnet run
 ```
