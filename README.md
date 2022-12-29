@@ -37,3 +37,8 @@ dotnet add package Microsoft.AspNetCore.Mvc.Formatters.Json
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 ```
+
+## Start SQL Server in docker (change ww)
+```Batchfile
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=mssql@Test01" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+```
